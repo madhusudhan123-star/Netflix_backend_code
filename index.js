@@ -27,8 +27,9 @@ app.use('/api/movies', moviesRouter)
 app.use('/api/tvshow', tv_ShowRouter)
 app.use('/api', search) // ?query=your-name
 
+const PORT = process.env.PORT || 8000;
 
-app.listen(process.env.PORT ||3001,'0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${process.env.PORT ||3001}`);
 });
 
