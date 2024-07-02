@@ -8,9 +8,11 @@ const profile = require('./router/profile');
 const moviesRouter = require('./router/movies');
 const tv_ShowRouter = require('./router/tv_show');
 const search = require('./router/search');
+const passport = require('passport');
 require('dotenv').config();
 app.use(express.json());
 app.use(cors())
+app.use(passport.initialize());
 
 mongoose.connect(process.env.database, {})
 .then(() => {

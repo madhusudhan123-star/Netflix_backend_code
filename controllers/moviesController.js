@@ -8,7 +8,7 @@ const genreMap = {
   crime: 80,
   drama: 18,
   experimental: 10770, // Example ID, please verify
-  fantasy: 14,
+  fantasy: 14, 
   historical: 36,
   horror: 27,
   romance: 10749,

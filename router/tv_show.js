@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.get('/popular',verifyTokenExpiration, tvShowsController.getPopularTVShows);
 router.get('/top',verifyTokenExpiration, tvShowsController.getTopTVShows);
-router.get('/genre/:genre',verifyTokenExpiration, tvShowsController.getTVShowsByGenre);
+router.get('/:genre',verifyTokenExpiration, tvShowsController.getTVShowsByGenre);
 
 module.exports = router;
+ 
