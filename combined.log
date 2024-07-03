@@ -17163,3 +17163,44 @@
 {"level":"info","message":"POST /api/search?query=mads","service":"user-service","timestamp":"2024-07-03T11:28:09.465Z"}
 {"level":"info","message":"POST /api/search?query=war","service":"user-service","timestamp":"2024-07-03T11:34:19.093Z"}
 {"level":"info","message":"POST /api/search?query=civil","service":"user-service","timestamp":"2024-07-03T11:34:35.042Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:29:26.151Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:29:26.827Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:31:57.597Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:33:05.348Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:34:00.757Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:34:23.348Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:37:24.134Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:37:34.204Z"}
+{"level":"info","message":"POST /api/login","service":"user-service","timestamp":"2024-07-03T12:38:04.630Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:38:19.668Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:39:18.834Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:39:19.773Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:39:47.607Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:39:48.349Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:40:10.084Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:40:10.808Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:40:21.831Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:40:22.503Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:40:53.752Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:43:26.752Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:43:27.583Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:43:49.965Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:43:50.692Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-07-03T12:44:00.393Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:45:01.532Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:45:02.244Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:45:12.450Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:45:13.150Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:45:33.381Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:45:34.246Z"}
+{"level":"info","message":"POST /api/login","service":"user-service","timestamp":"2024-07-03T12:45:48.356Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:47:12.353Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:47:13.059Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:48:28.638Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:48:29.401Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:48:47.712Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:48:48.473Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:48:54.285Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:48:54.960Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:49:01.509Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:49:02.168Z"}
