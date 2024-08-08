@@ -80,25 +80,25 @@ const login = async (req, res) => {
 
     const isPasswordValid = await bcrypt.compare(password, user.password);
     if (!isPasswordValid) {
-      return res.status(400).json({ status:"error", message: 'Invalid username or password' });
+      return res.status(400).json({ status: "error", message: 'Invalid username or password' });
     }
 
-    const token = jwt.sign({ userId: user._id }, process.env.JWTPRIVATEKEY,  { expiresIn: '7d' });
+    const token = jwt.sign({ userId: user._id }, process.env.JWTPRIVATEKEY, { expiresIn: '7d' });
     // const expirationTime = new Date(Date.now() + 36000); // 1 hour from now
 
     user.token = token;
     // user.expireAt = expirationTime;
     await user.save();
     res.cookie('token', token, { httpOnly: true, maxAge: 604800000 });
-    res.status(200).json({ status:"success", message: 'Login successful', token });
+    res.status(200).json({ status: "success", message: 'Login successful', token });
   } catch (error) {
-    res.status(500).json({status:"error", message: 'Internal server error' });
+    res.status(500).json({ status: "error", message: 'Internal server error' });
   }
 };
 
-const logout = async (req, res) =>{
-    res.clearCookie('token'); // Clear the token cookie
-    res.status(200).json({ status:"success", message: 'Logout successful' });
+const logout = async (req, res) => {
+  res.clearCookie('token'); // Clear the token cookie
+  res.status(200).json({ status: "success", message: 'Logout successful' });
 }
 
 
@@ -118,7 +118,7 @@ const forgotPassword = async (req, res) => {
     await user.save();
 
     const resetUrl = `${process.env.Rest_URL}${resetToken}`;
-    
+
     await sendEmail(
       user.email,
       'Password Reset Request',
@@ -141,7 +141,7 @@ const forgotPassword = async (req, res) => {
 };
 
 const resetPassword = async (req, res) => {
-  const token  = req.params.id;
+  const token = req.params.id;
   const { newPassword } = req.body;
   console.log(token, newPassword);
   try {

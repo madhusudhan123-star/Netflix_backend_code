@@ -17204,3 +17204,19 @@
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:48:54.960Z"}
 {"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-07-03T12:49:01.509Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-07-03T12:49:02.168Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T14:50:15.347Z"}
+{"error":"querySrv ENOTFOUND _mongodb._tcp.cluster0.duqmdv1.mongodb.net","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T14:50:15.413Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:01:51.750Z"}
+{"error":"URI must include hostname, domain name, and tld","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:01:51.759Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:04:03.963Z"}
+{"error":"bad auth : authentication failed","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:04:04.568Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:04:50.936Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:04:53.821Z"}
+{"error":"bad auth : authentication failed","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:04:54.340Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:05:07.866Z"}
+{"error":"querySrv ENOTFOUND _mongodb._tcp.123cluster0.v0oh4.mongodb.net","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:05:07.889Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-08-08T15:18:07.971Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-08-08T15:23:16.876Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-08-08T15:23:17.434Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-08-08T15:23:24.048Z"}
+{"level":"info","message":"POST /api/login","service":"user-service","timestamp":"2024-08-08T15:23:39.725Z"}
