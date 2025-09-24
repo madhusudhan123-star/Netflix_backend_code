@@ -69,7 +69,6 @@ const getTopMovies = async (req, res) => {
   }
 };
 
-
 const moviesController = {
   getPopularMovies,
   getTopMovies,

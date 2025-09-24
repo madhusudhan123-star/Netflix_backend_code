@@ -3,3 +3,4 @@
 {"error":"bad auth : authentication failed","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:04:04.568Z"}
 {"error":"bad auth : authentication failed","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:04:54.340Z"}
 {"error":"querySrv ENOTFOUND _mongodb._tcp.123cluster0.v0oh4.mongodb.net","level":"error","message":"Error connecting to MongoDB","service":"user-service","timestamp":"2024-08-08T15:05:07.889Z"}
+{"level":"error","message":"Expected double-quoted property name in JSON at position 44 (line 3 column 1) - /api/forgot-password - POST - 127.0.0.1","service":"user-service","timestamp":"2025-09-24T10:20:12.194Z"}

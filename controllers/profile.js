@@ -71,7 +71,6 @@ const getUserViewingHistory = async (req, res) => {
     }
 };
 
-
 const getUserWatchlist = async (req, res) => {
     try {
       const userId = req.userId;
@@ -86,7 +85,6 @@ const getUserWatchlist = async (req, res) => {
       res.status(500).json({ message: 'Error fetching watchlist', error: error.message });
     }
 };
-
 
 const profileDetails = {
     userdetails,

@@ -1,2 +1,13 @@
 {"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2024-08-08T15:59:59.025Z"}
 {"level":"info","message":"POST /api/login","service":"user-service","timestamp":"2024-08-08T16:00:13.239Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2024-09-22T04:34:50.971Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2024-09-22T04:34:51.710Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2025-09-24T09:59:08.607Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2025-09-24T10:12:39.853Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-09-24T10:12:40.386Z"}
+{"level":"info","message":"Server is running on port 8000","service":"user-service","timestamp":"2025-09-24T10:17:00.314Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-09-24T10:17:00.928Z"}
+{"level":"info","message":"POST /api/register","service":"user-service","timestamp":"2025-09-24T10:17:22.336Z"}
+{"level":"info","message":"POST /api/login","service":"user-service","timestamp":"2025-09-24T10:18:13.862Z"}
+{"level":"error","message":"Expected double-quoted property name in JSON at position 44 (line 3 column 1) - /api/forgot-password - POST - 127.0.0.1","service":"user-service","timestamp":"2025-09-24T10:20:12.194Z"}
+{"level":"info","message":"POST /api/forgot-password","service":"user-service","timestamp":"2025-09-24T10:20:19.657Z"}
